@@ -1,0 +1,567 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+body{
+  direction: rtl;
+  width: 100%;
+}
+.head{
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100px;
+  height: fit-content;
+}
+a{
+  text-decoration: none;
+  font: normal normal normal 25px/37px Heebo;
+  color: #2c2c2c;
+  margin-left: 10px;
+}
+a:hover{
+  background-color: #ec1a9b;
+  color: gold;
+  scale: 1.2;
+}
+.number1{
+  margin-right: 30px;
+}
+.icon-user{
+ display: flex;
+ flex-direction: row-reverse;
+ align-items: center;
+ margin-right: 500px;
+ gap: 10px;
+}
+#navbar{
+  display: flex;
+}
+.main{
+  color: rgb(255, 0, 179);
+}
+input[type="checkbox"] {
+  display: none;
+}
+#hamburger, #x{
+  display: none;
+  font-size: 50px;
+  color: #ec1a9b;
+  font-weight: bold;
+}
+.img{
+  display: flex;
+  background-image: url(../images/morsch_1.jpg);
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.section-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 461px;  
+  background-image: linear-gradient(to left,rgb(255, 20, 122), gold 70%), url('../images/header-background.png');
+  /* background-image: url(../images/header-background.png); */
+  background-blend-mode: multiply;
+  opacity: 0.8;
+  text-align: center;
+}
+#work-bag{
+  display: flex;
+  align-items: center;
+  font: normal normal 900 80px/118px Heebo;
+  color: black;
+  opacity: 1;
+}
+#lorem-1{
+  font-size: 25px; 
+  direction: rtl;
+  
+}
+
+.section-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100px;
+  border: 1px solid silver;
+}
+.pic{
+  width: 100px;
+  height: 95px;
+}
+.num-1{
+  background-image: url(../images/sass.png);
+}
+.num-2{
+  background-image: url(../images/img-Bootstrap.png);
+}
+.num-3{
+  background-image: url(../images/img-CSS.png);
+}
+.num-4{
+  background-image: url(../images/img-HTML.png);
+}
+
+
+.section-4{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 715px;
+  text-align: center;
+  gap: 30px;
+  background-color: #fff7cd;
+}
+.num-5{
+  background-image: url(../images/morsch_1.jpg);
+  border-radius: 100px;
+  width: 141px;
+  min-height: 139px;
+  margin-top: 65px;
+  background-size: cover;
+}
+.lorem-2{
+  /* font: normal normal normal 16px/29px Heebo; */
+  direction: rtl;
+  font-size: 22px;
+}
+.about-me{
+  color: gold;
+  background-color: rgb(255, 0, 170);
+  width: 150px;
+  border-radius: 13px;
+}
+.download-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal bold 20px/30px Heebo;
+  background: gold 0% 0% no-repeat padding-box;
+  width: 260px;
+  height: 41px;
+  color: #3A3A3A;
+  border-radius: 20px;
+}
+
+
+.section-5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #F6F6F6 0% 0% no-repeat padding-box;
+  gap: 40px;
+ font-family: Heebo;
+ background-color: #f6cde2;
+}
+#colum{
+  display: flex;
+  flex-direction: column;
+  justify-content: strat;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  color: #3A3A3A;
+}
+.chosen-work{
+  margin-top: 140px;
+  font: normal normal 900 50px/53px Heebo;
+}
+.lorem-3{
+  font: normal normal normal 20px/29px Heebo;
+  direction: rtl;
+  text-align: center;
+}
+.project{
+  height: 470px;
+  border: 1px solid silver;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 70px;
+  background-color: #fff;
+}
+.picture-1{
+  background-image: url(../images/here\ and\ now.png);
+  width: 330px;
+  height: 186px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+#h2{
+  text-align: center;
+  font-size: 27px;
+  color: #3A3A3A;
+  font-weight:700;
+  padding: 7px;
+}
+#p{
+  width: 335px;
+  height: 66px;
+  text-align: center;
+  font: normal normal normal 13px / 24px Heebo;
+}
+.pictures{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 40px;
+  gap: 10px;
+}
+.op7{
+  background-image: url(../images/sass.png);
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+.op8{
+  background-image: url(../images/img-Bootstrap.png);
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+.op9{
+  background-image: url(../images/img-CSS.png);
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+.op10{
+  background-image: url(../images/img-HTML.png);
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+.picture-2{
+  background-image: url(../images/Landing-Page-Option-5.png);
+  width: 330px;
+  height: 186px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.picture-3{
+  background-image: url(../images/Landing-Page-Option-3.png);
+  width: 330px;
+  height: 186px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.picture-4{
+  background-image: url(../images/Landing-Page-Option-6.png);
+  width: 330px;
+  height: 186px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.picture-5{
+  background-image: url(../images/project-landing-page-3.PNG);
+  width: 330px;
+  height: 186px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.picture-6{
+  background-image: url(../images/IMG_0789.jpg);
+  width: 330px;
+  height: 186px;
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+
+.picture-6{
+  background-image: url(../images/IMG_0789.jpg);
+  width: 330px;
+  height: 186px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-6{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  height: 959px;
+  background-color:#3A3A3A ;
+  color: gold;
+  direction: rtl;
+  gap: 10px;
+}
+.envelope-img{
+  background-image: url(../images/Rectangle\ 41.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 50% auto;
+  opacity: 1;
+}
+form{
+  margin-right: 50px;
+}
+input{
+  width: 548px;
+  height: 50px;
+  border: none;
+  border-bottom: 5px solid gold;
+  background-color: #f6cde2;
+}
+#h1{
+  font: normal normal 900 36px/53px Heebo;
+  letter-spacing: 0px;
+  margin-right: 50px;
+  margin-top: 180px;
+
+}
+#lorem-4{
+  font: normal normal normal 20px/29px Heebo;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  direction: rtl;
+  margin-top: 30px;
+}
+#input-1{
+  height: 120px;
+}
+input[type="submit"]{
+  background: gold;
+  color: #2C2C2C;
+  width: 120px;
+  height: 32px;
+  font: normal normal bold 22px/30px Heebo;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.section-7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  background: linear-gradient(70deg,gold,rgb(255, 24, 113) 80%);
+  gap: 50px;
+  direction: rtl; 
+}
+.section-7 > div{
+  color: #000000;
+}
+.icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.facebook,.linkdin, .phone, .whatsapp, .email, .maps{
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.facebook{
+  background-image: url(../images/facebook-app-symbol.png);
+
+}
+.linkdin{
+  background-image: url(../images/linkedin.png);
+}
+.phone{
+  background-image: url(../images/phone-call.png);
+}
+.whatsapp{
+  background-image: url(../images/whatsapp.png);
+}
+.email{
+  background-image: url(../images/arroba.png);
+}
+.maps{
+  background-image: url(../images/maps-and-flags.png);
+}
+.section-8{
+  height: 50px;
+  background-color:  #000000;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color:gold;
+}
+#h3{
+  font-size: 19px;
+  margin-right: 30px;
+}
+.landing{
+  display: flex;
+  width: 152px;
+  height: 25px;
+  background-color: gold;
+  color: #2C2C2C;
+  border-radius: 9px;
+  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-right: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+ #hamburger{
+  display: block;
+ }
+ input[type="checkbox"]:checked ~ #navbar-links{
+  display: block;
+ }
+ input[type="checkbox"]:checked ~ #x{
+  display: block;
+  width: fit-content;
+ }
+ input[type="checkbox"]:checked ~ #hamburger{
+  display: none;
+ }
+ nav{
+  flex-direction: column;
+  padding-top: 0;
+ }
+ #navbar-links{
+  display: none;
+ }
+ .header{
+  width: 900px;
+ }
+ .section-2{
+  width: 900px;
+ }
+ .section-3{
+  width: 900px;
+ }
+ .section-4{
+  width: 900px;
+ }
+ .section-5{
+  width: 900px;
+  flex-direction: column;
+ }
+ .section-6{
+  width: 900px;
+ }
+ .section-7{
+  width: 900px;
+ }
+ .section-8{
+  display: flex;
+  width: 900px;
+  flex-direction: column;
+ }
+ .section-7{
+  flex-wrap: wrap;
+  height: 30%;
+  justify-content: space-around;
+  flex-direction: column;
+
+ }
+ input{
+  width: 70%;
+  margin-right: 40px;
+ }
+ label{
+  margin-right: 40px;
+ }
+ .facebook,.linkdin, .phone, .whatsapp, .email, .maps{
+  width: 35px;
+  height: 35px;
+}
+.text{
+  font-size: 20px;
+}
+#h3{
+  font-size: 32px;
+}
+.icon-user{
+  margin-right: 390px;
+}
+.lorem-2{
+  margin-left: 50px;
+}
+.head{
+ position: sticky;
+ left: 0;
+ right: 0;
+}
+.mor{
+  margin-right: 170px;
+}
+.project{
+  width: 600px;
+  height: 700px;
+}
+.picture-1, .picture-2, .picture-3 , .picture-4 ,.picture-5, .picture-6{
+  background-size: cover;
+  width: 600px;
+  height: 350px;
+}
+#p{
+  margin-top: 10px;
+  font-size: 25px;
+}
+#h2{
+  font-size: 50px;
+ 
+}
+.op8, .op10, .op9,.op7{
+  width:85px;
+  height: 85px;
+}
+.pictures{
+  gap: 0;
+}
+.landing{
+  width: 230px;
+  height: 42px;
+}
+#to-project{
+  font-size: 30px;
+  margin-top: 45px;
+}
+}
+  
+ 
+
